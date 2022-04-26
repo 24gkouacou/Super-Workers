@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#card >img{
+    height: 300px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ 
+ @media only screen and(max-width: 800px){
+    .nav-bgcolor{
+    background-color: green;
+    }
+}
+
+
+.baby1 {
+    background-image: url(images/image-1.jpeg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+}
+
+.okay{
+    color: white;
+    text-align: center;
+    padding: 0%;
+    
+
+}
+.person-1{
+    background-color: rgba(181, 224, 93, 0.74);
+    color: white;
+    width: 100px;
+    height: 45px;
+}
+.vous-2{
+    background-color: blue;
+    color: white;
+    width:100px;
+    height: 50px;
+   
+}
+.toi-1{
+    background-color: rgb(245, 20, 20);
+    color: white;
+    width: 100px;
+    height: 30px;
+    padding: 0 ;
+    text-align: center;
+    left: 10px;
+}
